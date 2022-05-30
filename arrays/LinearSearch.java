@@ -29,6 +29,11 @@ public class LinearSearch {
             System.out.println();
 
             int index=Search(arr,33);
-            System.out.println(index+1);
+            if(index==-1){
+                System.out.println("Element not found.");
+            }
+            else{
+                System.out.println("Element found at index "+(index+1));
+            }
     }
 }
